@@ -63,7 +63,11 @@ Remove this text, and add your answer for Exercise 4 here.
 Remove this text, and add your answer for Exercise 5 here.
 
 ```{r plastic-waste-mismanaged}
-# insert code here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = mismanaged_plastic_waste, 
+                     y = plastic_waste_per_cap, 
+                     color = continent))+
+ geom_point()
 ```
 
 ### Exercise 6
