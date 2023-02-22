@@ -48,7 +48,7 @@ ggplot(mapping = aes(x = plastic_waste_per_cap,
 
 ### Exercise 3
 
-Remove this text, and add your answer for Exercise 3 here.
+The violin plot makes the one point that is above 3 in North America more noticeable. In the box plot you could easily not see the one point which later could cause problems. With the violin plot it is very clear that the one point stands out from the rest of the data.
 
 ### Exercise 4
 
